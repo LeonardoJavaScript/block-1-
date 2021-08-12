@@ -1,0 +1,358 @@
+@font-face {
+    font-family: TT Lakes;
+    src: url('fonts/TTLakes-Light.woff');
+}
+@font-face {
+    font-family: B Lakes;
+    src: url('fonts/TTLakes-Bold.woff');
+}
+@font-face {
+    font-family: Bl Lakes;
+    src: url('fonts/TTLakes-Medium.ttf');
+}
+body{
+    position: relative;
+    min-width: 320px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #7E7E82;
+    background: #F8F8F8;
+    border-top: 1px solid #D9FFF5;
+    margin: 0;
+}
+html{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+a.link:active,
+a.link:hover,
+a.link {
+    text-decoration: none;
+    color: #666;
+}
+.link__slider:focus{
+    color: #B5B6BC;
+}
+.heading__container {
+    display: inline-block;
+    justify-content: space-around;
+
+    background: #F8F8F8;
+    font-size: 1em;
+}
+.content-title__text{
+    margin: 1em 1em 2em 1em;
+    font-family: "TT Lakes", serif;
+}
+.main__item{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 240px;
+    height: 72px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    cursor: pointer;
+    transition: border .3s;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    align-items: center;
+}
+.main-rel__item{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 240px;
+    height: 72px;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    cursor: pointer;
+    transition: border .3s;
+    margin-bottom: 1em;
+    align-items: center;
+    margin-right: 1em;
+}
+.image-lenovo{
+    content: url("image/Lenovo.svg");
+    width: 108px;
+    height: 32px;
+    margin-left: 1em;
+}
+.image-samsung{
+    content: url("image/Samsung.svg");
+    width: 116px;
+    height: 39px;
+    margin-left: 1em;
+}
+.image-apple{
+    content: url("image/Apple.svg");
+    width: 44px;
+    height: 44px;
+    margin-left: 1em;
+}
+.image-ViewSonic{
+    content: url("image/ViewSonic.svg");
+    width: 128px;
+    height: 21px;
+    margin-left: 1em;
+}
+.image-Bosch{
+    content: url("image/BOSCH.svg");
+    width: 128px;
+    height: 29px;
+    margin-left: 1em;
+}
+.image-hp{
+    content: url("image/hp.svg");
+    width: 52px;
+    height: 52px;
+    margin-left: 1em;
+}
+.image-acer{
+    content: url("image/acer.svg");
+    width: 94px;
+    height: 24px;
+    margin-left: 1em;
+}
+.image-sony{
+    content: url("image/Sony.svg");
+    width: 128px;
+    height: 26px;
+    margin-left: 1em;
+}
+.button-brand {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: background-color .3s,border .3s;
+    border:2px solid #FF3E79;
+    margin: 1em 1em 1em 0;
+    cursor: pointer;
+}
+.list::-webkit-scrollbar {
+    width: 0;
+}
+.button-hide{
+    display: none;
+}
+.main__description{
+    display: none;
+}
+.swiper-container {
+    width: 100%;
+}
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #DDDDDD;
+}
+.swiper-pagination-bullet-active {
+    background: #B5B6BC;
+}
+@media (min-width:768px) {
+    .heading__container{
+        margin-right: 16px;
+    }
+    .main__item{
+        display: flex;
+        align-items: center;
+        width: 224px;
+        height: 72px;
+        border-radius: 6px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        cursor: pointer;
+        transition: border .3s;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .main-rel__item{
+        display: none;
+    }
+    .main__description{
+        flex-direction: row;
+        background: #F8F8F8;
+    }
+    .list::-webkit-scrollbar {
+        width: 0;
+    }
+    .main__description{
+        display: flex;
+        flex-direction: column;
+        background: #F8F8F8;
+    }
+    .main__read{
+        font-family: "Bl Lakes", serif;
+        margin:0 6px 0 24px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+    }
+    .img-arrow{
+        margin-right: 15px;
+    }
+    .button-hide{
+        display: none;
+    }
+    .button-hide__border{
+        border: none;
+        background: #F8F8F8;
+        font-size: 16px;
+    }
+    .showed-all{
+        margin-right: 13px;
+    }
+    .slider__pagination{
+        display: none;
+    }
+    .swiper-pagination-bullet{
+        display:none;
+    }
+    .swiper-wrapper{
+        flex-direction: row ;
+        flex-wrap: wrap;
+        list-style: none;
+        overflow-x:visible;
+    }
+    .swiper-container {
+        width: 100%;
+    }
+}
+@media  (min-width:1120px){
+    @font-face {
+        font-family: TT Lakes;
+        src: url('fonts/TTLakes-Light.woff');
+    }
+    .heading__container{
+        justify-content: space-between;
+        border-bottom: none;
+        width: 1120px;
+        background: #F8F8F8;
+        margin-left: 24px;
+    }
+
+    .main-hide__item.shrank{
+        display: none;
+    }
+    .main__description{
+        background: #F8F8F8;
+        width: 1120px;
+    }
+    .swiper-wrapper{
+        flex-direction: row ;
+        flex-wrap: wrap;
+        list-style: none;
+        overflow-x:visible;
+    }
+    .main__item{
+        display: flex;
+        align-items: center;
+        width: 240px;
+        height: 72px;
+        border-radius: 6px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        cursor: pointer;
+        transition: border .3s;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .main-rel__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 240px;
+        height: 72px;
+        border-radius: 6px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        cursor: pointer;
+        transition: border .3s;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .main-hide__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 240px;
+        height: 72px;
+        border-radius: 6px;
+        border: 1px solid #eaeaea;
+        background: #fff;
+        cursor: pointer;
+        transition: border .3s;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+    .image-ViewSonic{
+        content: url("image/ViewSonic.svg");
+        width: 128px;
+        height: 21px;
+        margin-left: 1em;
+    }
+    .image-sony{
+        content: url("image/Sony.svg");
+        width: 128px;
+        height: 26px;
+        margin-left: 1em;
+    }
+    .main__description{
+        display: flex;
+        flex-direction: column;
+        background: #F8F8F8;
+    }
+    .main__read{
+        font-family: "Bl Lakes", serif;
+        margin:0 6px 0 24px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+
+    }
+    .image-lenovo__repetition{
+        content: url("image/Lenovo.svg");
+        width: 108px;
+        height: 32px;
+        margin-left: 1em;
+    }
+    .image-samsung__repetition{
+        content: url("image/Samsung.svg");
+        width: 116px;
+        height: 39px;
+        margin-left: 1em;
+    }
+    .image-apple__repetition{
+        content: url("image/Apple.svg");
+        width: 44px;
+        height: 44px;
+        margin-left: 1em;
+    }
+    .button-hide{
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border:2px solid #FF3E79;
+        margin: 1em 1em 1em 0;
+        cursor: pointer;
+    }
+    .swiper-container {
+        width: 100%;
+    }
+}
