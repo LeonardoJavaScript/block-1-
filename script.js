@@ -27,7 +27,7 @@ function mobileSlider() {
             direction: 'horizontal',
             loop: true,
             slidesPerView: 'auto',
-            spaceBetween: 16,
+            spaceBetween: 0,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
