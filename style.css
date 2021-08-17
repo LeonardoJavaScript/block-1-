@@ -21,6 +21,9 @@ body{
     border-top: 1px solid #D9FFF5;
     margin: 0;
 }
+ul{
+    padding: 0 0 0 16px;
+}
 html{
     display: block;
     margin: 0;
@@ -38,7 +41,6 @@ a.link {
 .heading__container {
     display: inline-block;
     justify-content: space-around;
-    margin-left: 24px;
     background: #F8F8F8;
     font-size: 1em;
 }
