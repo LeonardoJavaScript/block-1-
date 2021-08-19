@@ -11,10 +11,10 @@ button.addEventListener('click', function () {
 let slider = document.querySelector(".swiper-container")
 let swiper;
 function mobileSlider() {
-    if (window.innerWidth <= 767 && slider.dataset.mobile == "false") {
+    if (window.innerWidth <= 767 && slider.dataset.mobile === "false") {
         swiper = new Swiper(slider, {
             direction: 'horizontal',
-            loop: true,
+            loop: false,
             slidesPerView: 'auto',
             spaceBetween: 16,
             pagination: {
