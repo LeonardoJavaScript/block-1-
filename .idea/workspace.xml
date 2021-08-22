@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f65033e-37d0-47c0-a454-3f51e9a821f5" name="Changes" comment="fix slider">
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/eslint.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/eslint.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/esparse.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/node-which.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/node-which.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -17,12 +35,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wS9y3E2nUfti7BmpUbfJbZ3P6P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,7 +74,11 @@
       <workItem from="1628856613782" duration="611000" />
       <workItem from="1628962642389" duration="3977000" />
       <workItem from="1629057629008" duration="602000" />
-      <workItem from="1629209801916" duration="997000" />
+      <workItem from="1629209801916" duration="8364000" />
+      <workItem from="1629241292341" duration="17000" />
+      <workItem from="1629241342982" duration="3000" />
+      <workItem from="1629241404622" duration="10609000" />
+      <workItem from="1629330248019" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="delete fonts">
       <created>1628812620375</created>
@@ -69,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629210044953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix slider">
+      <created>1629210891186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629210891186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +120,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete fonts" />
     <MESSAGE value="fix slider" />
     <option name="LAST_COMMIT_MESSAGE" value="fix slider" />
